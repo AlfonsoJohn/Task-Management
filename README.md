@@ -37,6 +37,12 @@ The Task Management App provides users with a platform to create tasks and manag
 - React: Frontend framework for building the user interface.
 - React Router: For managing navigation within the app.
 - Axios: HTTP client for making API requests.
+- Bootstrap: For styling and responsive design.
+- React Bootstrap: Bootstrap components for React.
+- AWS Amplify: For authentication and backend integration.
+- FontAwesome: For icons.
+- React Confetti: For confetti effects.
+- React Datepicker: For date picking functionality.
 
 ### Backend
 
@@ -44,6 +50,13 @@ The Task Management App provides users with a platform to create tasks and manag
 - Flask: Lightweight web framework for the backend.
 - DynamoDB: NoSQL database for storing tasks.
 - AWS Amplify: AWS services for authentication and hosting.
+- Boto3: AWS SDK for Python.
+
+### AWS Services
+
+- Cognito: For user authentication.
+- DynamoDB: Database for storing tasks.
+- Amplify: Authentication and hosting services.
 
 ## Setup
 
