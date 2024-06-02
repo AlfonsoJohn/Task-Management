@@ -1,0 +1,226 @@
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0; /* Start with opacity 0 */
+  }
+  to {
+    opacity: 1; /* Transition to opacity 1 */
+  }
+}
+
+.main-header {
+  background-color: rgba(28, 61, 108, 0.691);
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; /* Space out the elements */
+  align-items: center; /* Center items vertically */
+}
+
+.aws-logo {
+  display: flex;
+  flex-direction: column; /* Stack the logo and text vertically */
+  align-items: center; /* Center the items horizontally */
+  flex-grow: 1; /* Allow the logo to take up available space */
+}
+
+.aws-logo img {
+  width: 75px; /* Adjust size as needed */
+  height: auto;
+}
+
+.aws-logo p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 14px; /* Adjust font size as needed */
+}
+
+.title-logo-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.title {
+  margin-right: 20px; /* Adjust spacing between title and logo */
+}
+
+.logo img {
+  width: 60px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.signup-box {
+  margin-left: auto;
+  display: inline-block; /* Ensure it wraps around the anchor element */
+}
+
+.free-box {
+  margin-left: auto;
+  display: inline-block; /* Ensure it wraps around the anchor element */
+}
+.free-box a {
+  display: block; /* Fill the entire container */
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  padding: 8px 50px;
+  text-decoration: none;
+  border-radius: 40px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease; /* Add transition for smooth effect */
+}
+
+.free-box a:hover {
+  background-color: rgb(0, 246, 70);
+  color: black;
+}
+
+.signup-box a {
+  display: block; /* Fill the entire container */
+  background-color: rgb(216, 14, 175);
+  color: #fcfcfc;
+  padding: 8px 50px;
+  text-decoration: none;
+  border-radius: 40px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease; /* Add transition for smooth effect */
+}
+
+.signup-box a:hover {
+  background-color: rgb(0, 246, 70);
+  color: #000000;
+}
+
+.login-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(255, 170, 0); /* Example background color */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 40px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  margin-right: 80px;
+}
+
+.login-button:hover {
+  background-color: #ffffff; /* Example darker color on hover */
+  color: black;
+}
+
+.login-button span {
+  margin-left: 5px; /* Spacing between text and arrow */
+}
+
+.landing-page-container {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 50px;
+  text-align: center;
+}
+
+.landing-page {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.divider {
+  border-left: 1px solid #000; /* Change color and width as needed */
+  margin: 0 10px; /* Adjust margin as needed */
+  height: 10px; /* Adjust height as needed */
+}
+
+.additional-content-container {
+  text-align: center;
+  background-color: #4010105f;
+  color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+
+.additional-content h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.additional-content p {
+  margin-bottom: 20px;
+}
+
+.additional-content ul {
+  margin-bottom: 20px;
+}
+
+.additional-content ul li {
+  margin-bottom: 8px;
+}
+
+.additional-content a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.app-description {
+  text-align: center;
+  font-size: 20px;
+}
+
+.task-direction {
+  text-align: center;
+}
+
+.powered-by-container {
+  text-align: center;
+  padding: 60px;
+  background-color: #40101000;
+  display: flex;
+  flex-direction: column;
+}
+
+.powered-by-container p {
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.github-logo {
+  width: 20px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.linkedin-logo {
+  width: 20px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.portfolio-logo {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.main-footer {
+  background-color: rgba(0, 0, 0, 0.292);
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+}
+.main-footer p {
+  margin-bottom: 10px; /* Adjust margin as needed */
+}

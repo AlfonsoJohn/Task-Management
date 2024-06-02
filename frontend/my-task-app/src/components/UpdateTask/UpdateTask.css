@@ -1,0 +1,54 @@
+.update-task-container {
+  background-color: #f9f9f9; /* Light background for the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px; /* Padding inside the container */
+  max-width: 500px; /* Maximum width of the container */
+  margin: 20px auto; /* Center the container with automatic margins */
+  font-family: "Arial", sans-serif; /* Font family */
+}
+
+.update-task-container h2 {
+  color: #333; /* Dark color for the heading */
+  margin-bottom: 16px; /* Space below the heading */
+}
+
+.update-task-container label {
+  display: block; /* Make labels block elements */
+  margin-bottom: 8px; /* Space below each label */
+  color: #555; /* Slightly darker color for labels */
+}
+
+.update-task-container input[type="text"],
+.update-task-container input[type="password"],
+.update-task-container select {
+  width: 100%; /* Full container width */
+  padding: 8px; /* Padding inside input fields */
+  margin-bottom: 16px; /* Space below each input field */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 4px; /* Rounded corners for input fields */
+  box-sizing: border-box; /* Box sizing to include padding in width */
+}
+
+.update-task-container button {
+  background-color: #007bff; /* Blue background for the button */
+  color: white; /* White text color */
+  padding: 10px 15px; /* Padding inside the button */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners for the button */
+  cursor: pointer; /* Cursor pointer on hover */
+  font-size: 16px; /* Font size */
+}
+
+.update-task-container button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.update-task-container .message {
+  color: #d9534f; /* Red color for error messages */
+  margin-top: 10px; /* Space above the message */
+}
+
+.update-task-container .success-message {
+  color: #28a745; /* Green color for success messages */
+}

@@ -1,0 +1,45 @@
+{
+  "auth": {
+    "taskmanageappd473d592": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_taskmanageappd473d592_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "taskmanageappd473d592"
+        }
+      ]
+    },
+    "AMPLIFY_auth_taskmanageappd473d592_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "taskmanageappd473d592"
+        }
+      ]
+    },
+    "AMPLIFY_auth_taskmanageappd473d592_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "taskmanageappd473d592"
+        }
+      ]
+    },
+    "AMPLIFY_auth_taskmanageappd473d592_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "taskmanageappd473d592"
+        }
+      ]
+    }
+  }
+}

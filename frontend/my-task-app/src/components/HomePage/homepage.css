@@ -1,0 +1,91 @@
+.home-page {
+  .main-header {
+    background-color: #0000004d;
+    color: #fff;
+    padding: 40px;
+    text-align: center; /* Center the text */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+    font-size: 30px;
+  }
+  .task-box {
+    text-align: center;
+  }
+  .task-box a {
+    display: block;
+    width: 200px; /* Set the width of each task box */
+    padding: 10px;
+    margin: 10px auto; /* Adjust margin for spacing between boxes */
+    border: 1px solid #ccc; /* Add a border */
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Box background color */
+  }
+}
+
+/* homepage.css */
+
+.menu-bar {
+  background: rgba(51, 51, 51, 0.8); /* Set background with transparency */
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: auto; /* Allow height to adjust based on content */
+  overflow: visible; /* Ensure the menu is always visible */
+}
+
+.menu li {
+  margin: 0 120px; /* Add horizontal margin for spacing between menu items */
+  position: relative; /* Ensure dropdowns are positioned correctly */
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background: rgb(85, 85, 85);
+}
+
+.menu li .dropdown-content {
+  display: block; /* Ensure dropdown content is always visible */
+  position: absolute;
+  top: 100%; /* Position below the menu item */
+  left: 0;
+  background: rgba(51, 51, 51, 0.8); /* Set background with transparency */
+  width: 300px; /* Set a fixed width */
+  height: auto; /* Adjust height based on content */
+  margin-top: 10px; /* Add margin for spacing between boxes */
+  padding: 20px; /* Add padding inside the box */
+  box-sizing: border-box; /* Ensure padding is included in the width and height */
+  z-index: 1; /* Ensure it appears above other content */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.menu li .dropdown-content form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.menu li .dropdown-content form input,
+.menu li .dropdown-content form textarea,
+.menu li .dropdown-content form button {
+  margin-bottom: 10px; /* Add space between form elements */
+  width: 100%; /* Ensure form elements take full width */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.menu li .dropdown-content form button {
+  margin-top: auto; /* Push the button to the bottom */
+}

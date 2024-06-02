@@ -1,0 +1,64 @@
+/* Verification form styles */
+.verification-container {
+  width: 390px;
+  margin-top: 100px;
+  margin-left: 700px;
+  /* margin: 0 auto; */
+  padding: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+  background-color: rgba(31, 63, 138, 0.492);
+}
+
+.user-verf-text {
+  text-align: center;
+  color: #ffffff;
+}
+
+.username-text {
+  width: 90%;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-left: 7px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.verification-code {
+  width: 90%;
+  text-align: center;
+  margin-left: 7px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  width: 100%;
+  margin-left: 18px;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+/* Error and success messages */
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: green;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,229 @@
+@keyframes pulseAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0; /* Start with opacity 0 */
+  }
+  to {
+    opacity: 1; /* Transition to opacity 1 */
+  }
+}
+
+.fade-in {
+  opacity: 0; /* Initially set the opacity to 0 */
+  animation: fadeInAnimation 1s ease-in forwards; /* Animation properties */
+}
+
+.main-header {
+  background-color: rgba(153, 192, 246, 0);
+  color: #ffffff;
+  padding: 10px;
+}
+
+.title-logo-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.title {
+  margin-right: 20px; /* Adjust spacing between title and logo */
+}
+
+.logo img {
+  width: 60px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.login {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(255, 170, 0); /* Example background color */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 40px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  position: absolute;
+  right: 20px; /* Adjust to position it on the right */
+}
+
+.login:hover {
+  background-color: #ffffff; /* Example darker color on hover */
+  color: black;
+}
+
+.login span {
+  margin-left: 500px; /* Spacing between text and arrow */
+}
+
+.registration-container {
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding around the container */
+  background-color: rgba(153, 192, 246, 0); /* Set a background color */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+}
+
+.user-reg {
+  text-align: center;
+  margin-bottom: 20px; /* Add some spacing below the title */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style individual form elements as needed */
+.user-input,
+.password-input,
+.confirmPass-input,
+.email-input,
+.register-button {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.password-toggle,
+.confirmPass-toggle {
+  position: relative;
+}
+
+.toggle-icon {
+  position: absolute;
+  right: 5px; /* Adjust the position of the eye icon */
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* Adjust additional styles or layout based on your preferences */
+
+.form-container,
+.instructions-container {
+  width: 45%; /* Adjust width as needed */
+  padding: 20px; /* Add padding for better spacing */
+  box-sizing: border-box; /* Include padding in width calculation */
+  background-color: rgba(
+    153,
+    192,
+    246,
+    0
+  ); /* Optional: Add background color for distinction */
+  border-radius: 8px; /* Optional: Add border radius for styling */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for depth */
+}
+
+/* Other styles remain unchanged */
+
+.main-container {
+  display: flex;
+  max-width: 1200px; /* Adjust the maximum width */
+  margin: 0 auto; /* Center the containers horizontally */
+  padding: 50px; /* Add padding around the containers */
+}
+
+.registration-container {
+  width: 250px; /* Adjust the maximum width as needed */
+  margin: 50 auto; /* Center the container horizontally */
+  padding: 50px; /* Add padding around the container */
+  background-color: rgba(153, 192, 246, 0); /* Set a background color */
+  border-radius: 40px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.523); /* Add a slight shadow */
+}
+
+.instruction-section {
+  max-width: 400px; /* Adjust the maximum width as needed */
+  margin-right: 65px; /* Center the container horizontally */
+  padding: 20px; /* Add padding around the container */
+  background-color: rgba(153, 192, 246, 0); /* Set a background color */
+  border-radius: 40px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.523); /* Add a slight shadow */
+}
+
+.how-to {
+  text-align: center;
+}
+
+.guidelines {
+  text-align: center;
+}
+
+.powered-reg-by-container {
+  margin-left: 60px;
+}
+
+.aws-cognito {
+  margin-left: 37px;
+}
+
+.cognito-logo {
+  width: 10px;
+  height: auto;
+  margin-left: 45px;
+}
+
+.password-input,
+.confirmPass-input {
+  width: calc(100% - 40px); /* Adjust input width for the eye icon */
+  padding-right: 40px; /* Space for the eye icon */
+}
+
+.register-button {
+  display: block;
+  width: 100px; /* Adjust the width as needed */
+  margin: 20px auto; /* Center the button */
+  padding: 4px; /* Adjust the padding to make it smaller */
+  font-size: 14px; /* Adjust the font size */
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+}
+
+.register-button:hover {
+  animation: pulseAnimation 1s infinite; /* Apply pulse animation on hover */
+  background-color: #004080; /* Change background color on hover */
+}
+
+p {
+  margin-top: 20px;
+}
+
+p a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.verify-email-text,
+.verify-email-link {
+  text-align: center;
+}
+
+.verify-email-link {
+  display: block; /* Ensures the link takes full width */
+  margin-top: 10px; /* Adjust spacing between text and link */
+  /* Additional styles as needed */
+}

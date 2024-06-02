@@ -1,0 +1,52 @@
+.task-action-container {
+  background-color: #fff; /* Light background for better visibility */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  padding: 20px; /* Sufficient padding for spacing */
+  max-width: 400px; /* Max width for form containment */
+  margin: 40px auto; /* Center the container on the page */
+  font-family: "Arial", sans-serif; /* Consistent font for readability */
+}
+
+.task-action-container h2 {
+  color: #333; /* Dark color for the heading for contrast */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.task-action-container label {
+  display: block; /* Ensure label is block-level for proper alignment */
+  margin-bottom: 10px; /* Margin for spacing */
+  color: #555; /* Slightly lighter color for labels */
+}
+
+.task-action-container input[type="text"] {
+  width: 100%; /* Full width to align with container edges */
+  padding: 10px; /* Padding for input field comfort */
+  margin-bottom: 20px; /* Space below the input field */
+  border: 1px solid #ccc; /* Subtle border */
+  border-radius: 4px; /* Rounded corners for the input field */
+}
+
+.task-action-container button {
+  background-color: #dc3545; /* Red color for deletion action */
+  color: white; /* White text for contrast */
+  padding: 10px 15px; /* Padding for button size */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners for the button */
+  cursor: pointer; /* Cursor pointer to indicate clickable */
+  font-size: 16px; /* Slightly larger font for readability */
+}
+
+.task-action-container button:hover {
+  background-color: #c82333; /* Darker shade on hover for feedback */
+}
+
+.task-action-container .error-message {
+  color: #d9534f; /* Red color for errors to stand out */
+  margin-top: 15px; /* Space from the form */
+}
+
+.task-action-container .success-message {
+  color: #28a745; /* Green color for success to be noticeable */
+  margin-top: 15px; /* Space from the form */
+}
